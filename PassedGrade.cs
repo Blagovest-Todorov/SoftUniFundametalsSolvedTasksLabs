@@ -12,7 +12,11 @@ namespace Passed
             {
                  Console.WriteLine("Passed!");
             }
-            
+            else // if (grade < 3.00)
+            {
+                Console.WriteLine("Failed!");
+            }
+
         }
     }
 }
